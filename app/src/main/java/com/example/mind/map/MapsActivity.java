@@ -55,7 +55,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
     }
- /*   private double distance(double lat1, double lon1, double lat2, double lon2) {
+/*
+    private double distance(double lat1, double lon1, double lat2, double lon2) {
         double theta = lon1 - lon2;
         double dist = Math.sin(deg2rad(lat1))
                 * Math.sin(deg2rad(lat2))
